@@ -1,0 +1,69 @@
+### JetBrains IDE (IntelliJ IDEA) ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/resources/archetype-resources/src/main/java/App.java
+
+### VS Code ###
+.vscode/
+.factorypath
+
+### Build Tools (Maven) ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Build Tools (Gradle) ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Logs y Temporales ###
+*.log
+logs/
+temp/
+tmp/
+
+### Configuración del Sistema y OS ###
+.DS_Store
+Thumbs.db
+
+### Configuración Local y Secretos (¡IMPORTANTE!) ###
+.env
+*.local
+application-local.properties
+application-local.yml
+
+### Eclipse ###
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Archivos de proyecto de Eclipse
+.project
+.classpath
+
+# Extensiones de Eclipse (JDT, Mylyn, etc.)
+.factorypath
+.springBeans
+.pydevproject
+
+# Herramientas de servidor (WTP)
+.sts4-cache
